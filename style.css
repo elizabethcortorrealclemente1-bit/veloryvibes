@@ -1,0 +1,140 @@
+/* Configuración General */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;
+color: #333;
+}
+/* Contenedor principal del header */
+header {
+background-color: #f522b6;
+color: white;
+text-align: center;
+padding: 20px 0 0 0; /* Padding inferior en 0 para que el nav pegue abajo */
+}
+/* Estructura del Nav */
+.navbar {
+background-color: #cf0292; /* Un tono más claro para diferenciarlo del título */
+margin-top: 15px;
+padding: 12px 0;
+}
+/* Quitar estilos de lista y alinear en horizontal */
+.navbar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; /* Centra los botones del menú */
+gap: 30px; /* Espacio entre cada opción */
+}
+/* Estilo de los enlaces */
+.navbar a {
+color: #ecf0f1;
+text-decoration: none;
+font-size: 1rem;
+font-weight: 600;
+text-transform: uppercase; /* Hace que el menú se vea más profesional */
+transition: all 0.3s ease;
+}
+/* Efecto al pasar el ratón (Hover) */
+.navbar a:hover {
+color: #3498db;
+text-shadow: 0px 0px 5px rgba(52, 152, 219, 0.5);
+}
+/* Contenedor del Layout */
+.container {
+max-width: 800px;
+margin: 20px auto;
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+/* Flexbox para alinear imagen y texto */
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+/* Estilo de la Imagen */
+.card-image img {
+width: 100%;
+max-width: 350px;
+border-radius: 5px;
+display: block;
+}
+/* Estilo del Contenido */
+.card-content {
+flex: 1;
+min-width: 300px;
+}
+.feature-list {
+padding-left: 20px;
+}
+.feature-list li {
+margin-bottom: 8px;
+color: #555;
+}
+footer {
+text-align: center;
+margin-top: 20px;
+padding: 10px;
+font-size: 0.9rem;
+color: #777;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fff0f5;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.formulario h3 {
+  text-align: center;
+  color: #d63384;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: hotpink;
+  box-shadow: 0 0 5px pink;
+  outline: none;
+}
+
+.formulario button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: hotpink;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background: deeppink;
+  transform: scale(1.05);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.exito {
+  color: green;
+  text-align: center;
+}
